@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-CMP-4bff2cc3-6054-413d-94b4-7d0e73a30377</UserSecretsId>
+	<PreserveCompilationContext>true</PreserveCompilationContext>
+	<RazorCompileOnBuild>false</RazorCompileOnBuild>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="MailKit" Version="2.0.6" />
+    <PackageReference Include="MimeKit" Version="2.0.6" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+
+</Project>
